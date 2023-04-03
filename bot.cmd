@@ -1,0 +1,1 @@
+py .\bot\bot.py
