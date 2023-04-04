@@ -33,7 +33,7 @@ def coroutine(browser):
         if data.isConnected:
             input = browser.find_element(By.ID,'pseudo')
             input.send_keys(data.pseudo)
-            # browser.find_element(By.ID,'btnvote').click()
+            browser.find_element(By.ID,'btnvote').click()
 
             browser.close()
             all_win_handles = browser.window_handles

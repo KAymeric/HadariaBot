@@ -9,7 +9,7 @@ For more easy installation and usage, Hadaria Bot work on pyhton 3.
 - Close Microsoft Strore
 - Press any key to continue.
 - Wait until installation complete.
-- Press any key to close the window
+- The command prompt will close itself
 
 
 SETUP
@@ -37,4 +37,5 @@ If you want to shut down the bot, just close the Chrome window
 
 
 --- This program is a proprety of Aymeric Kreuzer ---
+
 --- It is not allowed to use, copy, archieve or transmit it without the consent of the author ---
