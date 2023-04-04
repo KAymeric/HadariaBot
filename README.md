@@ -1,16 +1,19 @@
+INSTALLATION
+
 Before using Hadaria bot :
 
 For more easy installation and usage, Hadaria Bot work on pyhton 3.
 
-install python3 :
-    download installer (https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe) and follow instructions.
+- Double click on the Install.cmd file.
+- It will open the python's microsoft page, download it.
+- Then return on the cmd window and press any key to continue.
+- Wait until installation complete.
+- Press any key to close the window
+- You can also close Microsoft Strore
 
-Then open cmd and execute thoses commands :
 
-    pip install selenium
-    pip install webdriver_manager
-
+USAGE 
 
 Start Hadaria bot :
 
-    execute bot.cmd
+    double click on bot.cmd
