@@ -2,7 +2,7 @@ INSTALLATION
 
 Before using Hadaria bot :
 
-For more easy installation and usage, Hadaria Bot work on pyhton 3.
+For easier installation and usage, Hadaria Bot work on pyhton 3.
 
 - Double click on the Install.cmd file.
 - It will open the python's microsoft page, download it.
