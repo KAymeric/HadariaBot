@@ -1,7 +1,7 @@
 URL = "https://hadaria.fr/vote"
-PSEUDO = "Kazectefu"
-EMAIL = "XXXX"
-PASSWORD = "XXXX"
+PSEUDO = "XXX"
+EMAIL = "XXX"
+PASSWORD = "XXX"
 
 class Data:
     def __init__(self):
@@ -9,3 +9,4 @@ class Data:
         self.pseudo = PSEUDO
         self.email = EMAIL
         self.password = PASSWORD
+        self.isConnected = False
