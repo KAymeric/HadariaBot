@@ -22,7 +22,7 @@ def coroutine(browser):
         except :
             pass
 
-        time.sleep(1)
+        time.sleep(1.5)
         browser.find_element(By.CLASS_NAME,'website-14').click()
         
         time.sleep(4)
@@ -34,6 +34,7 @@ def coroutine(browser):
             input = browser.find_element(By.ID,'pseudo')
             input.send_keys(data.pseudo)
             browser.find_element(By.ID,'btnvote').click()
+            time.sleep(1)
 
             browser.close()
             all_win_handles = browser.window_handles
