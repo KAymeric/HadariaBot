@@ -39,6 +39,10 @@ def coroutine(browser):
             browser.close()
             all_win_handles = browser.window_handles
             browser.switch_to.window(all_win_handles[0])
+            time.sleep(4)
+            browser.find_element(By.XPATH,'/html/body/div[1]/div[3]/div/div[2]/div[3]/div/div/div/div/div/a').click()
+            
+
             time.sleep(5430)
 
         else :
