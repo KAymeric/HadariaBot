@@ -1,2 +1,2 @@
-python .\bot\bot.py
+python3.10 .\bot\bot.py
 pause

@@ -25,7 +25,7 @@ def coroutine(browser):
         time.sleep(1.5)
         browser.find_element(By.CLASS_NAME,'website-14').click()
         
-        time.sleep(4)
+        time.sleep(6)
         all_win_handles = browser.window_handles
         browser.switch_to.window(all_win_handles[1])
         time.sleep(1)
@@ -34,12 +34,12 @@ def coroutine(browser):
             input = browser.find_element(By.ID,'pseudo')
             input.send_keys(data.pseudo)
             browser.find_element(By.ID,'btnvote').click()
-            time.sleep(1)
+            time.sleep(5)
 
             browser.close()
             all_win_handles = browser.window_handles
             browser.switch_to.window(all_win_handles[0])
-            time.sleep(4)
+            time.sleep(5)
             browser.find_element(By.XPATH,'/html/body/div[1]/div[3]/div/div[2]/div[3]/div/div/div/div/div/a').click()
             
 
