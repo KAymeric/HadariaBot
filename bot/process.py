@@ -22,7 +22,7 @@ def coroutine(browser):
         except :
             pass
 
-        time.sleep(1.5)
+        time.sleep(3)
         browser.find_element(By.CLASS_NAME,'website-14').click()
         
         time.sleep(6)
