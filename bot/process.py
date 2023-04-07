@@ -22,7 +22,8 @@ def coroutine(browser):
         except :
             pass
 
-        time.sleep(3)
+        WebDriverWait(browser, 20).until(EC.presence_of_element_located((By.CLASS_NAME,'website-14')))
+        time.sleep(2)
         browser.find_element(By.CLASS_NAME,'website-14').click()
         
         time.sleep(6)
