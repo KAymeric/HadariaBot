@@ -12,20 +12,24 @@ def coroutine(browser):
     data = Data()
     
     while True:
-
-        input = browser.find_element(By.CLASS_NAME,'form-control-lg')
-        input.send_keys(data.pseudo)
+        try :
+            input = browser.find_element(By.CLASS_NAME,'form-control-lg')
+            input.send_keys(data.pseudo)
+        except:
+            pass
         
-
-        browser.execute_script("window.scrollTo(0, 400)")
-        time.sleep(4)
-        browser.find_element(By.XPATH,'//*[@id="login-form"]/button').click()
+        try:
+            browser.execute_script("window.scrollTo(0, 400)")
+            time.sleep(4)
+            browser.find_element(By.XPATH,'//*[@id="login-form"]/button').click()
+        except:
+            pass
 
         WebDriverWait(browser, 20).until(EC.presence_of_element_located((By.ID,'site_button_1')))
         time.sleep(2)
         browser.find_element(By.ID,'site_button_1').click()
         
-        time.sleep(6)
+        time.sleep(15)
         all_win_handles = browser.window_handles
         browser.switch_to.window(all_win_handles[1])
         time.sleep(1)
